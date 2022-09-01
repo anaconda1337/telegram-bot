@@ -31,9 +31,10 @@ import webbrowser
 import json
 import base64
 from PIL import Image
+from token_hide import token
 
 gc = pygsheets.authorize(service_file='google_service_file.json')
-TOKEN = ('1901516841:AAHW581Zh-wJ1cIkeiouBE7RotIpkFrIEfc')
+TOKEN = (token)
 DEBUG_MODE = True
 
 # Enable logging
